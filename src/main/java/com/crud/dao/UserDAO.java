@@ -14,7 +14,7 @@ public class UserDAO {
 	
 	 private String URL = "jdbc:mysql://localhost:3306/crudapp?useSSL=false";
 	 private String userName = "root";
-	 private String password = "savan";
+	 private String password = "savanpatoliya";
 	 
 	 private static final String InserUser = "INSERT INTO users" + "  (name, email, country) VALUES "
 				+ " (?, ?, ?);";
